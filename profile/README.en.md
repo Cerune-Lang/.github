@@ -1,4 +1,4 @@
-# Cerune 🌸
+# Cerune
 
 **An experimental programming language ecosystem focused on observable computation.**
 
@@ -36,7 +36,3 @@ Rather than treating compilation and execution as black boxes, we aim to make th
 Comparing intermediate representations and execution routes, and understanding the relationship between source code and generated output, are central to this exploration.
 
 This ecosystem is under active development. Language features, APIs, and implementations may evolve as experiments continue.
-
----
-
-*Cerune — Observe the journey from source code to execution.*
