@@ -26,6 +26,7 @@ Alongside the language itself, we are gradually developing tools, numerical comp
 ## Experiments
 
 - **[Cisa](https://github.com/Cerune-Lang/Cisa)** — A small virtual CPU implemented in Cerune, used to explore language design through practical experimentation.
+- **[stelle](https://github.com/Cerune-Lang/stelle)** — A CLI RPG written in Cerune, exploring the language's expressiveness and practical capabilities through game development.
 
 ## Our Philosophy
 
