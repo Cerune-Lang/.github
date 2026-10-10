@@ -26,6 +26,7 @@ Ceruneは、静的型付けを備えた実験的なプログラミング言語�
 ## 実験プロジェクト
 
 - **[Cisa](https://github.com/Cerune-Lang/Cisa)** — Ceruneで実装する小さな仮想CPU。実際に言語を使いながら、言語設計や実行機能を検証しています。
+- **[stelle](https://github.com/Cerune-Lang/stelle)** — Ceruneで制作するCLI RPG。ゲーム開発を通じて、言語の表現力や実用性を検証しています。
 
 ## 大切にしていること
 
