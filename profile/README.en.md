@@ -1,39 +1,23 @@
+<div align="center">
+
 # Cerune
 
-**An experimental programming language ecosystem focused on observable computation.**
+[日本語](README.md) | English
 
-[日本語](https://github.com/Cerune-Lang/.github/blob/main/profile/README.md) | English
+Cerune is an experimental programming language that makes IR, MIR, SSA, and generated code inspectable. This organization also hosts developer tools and programs written in Cerune.
 
-Cerune is an experimental statically typed programming language.
+[Language README](https://github.com/Cerune-Lang/Cerune) · [Documentation website](https://cerune.hokutaka.dev/) · [All projects](../docs/projects.en.md)
 
-We care about understanding how source code is interpreted, transformed into intermediate representations, and eventually executed. Our goal is to make these processes observable, comparable, and easier to understand.
+</div>
 
-Alongside the language itself, we are gradually developing tools, numerical computing libraries, and experimental applications.
-
-## Getting Started
+## Main repositories
 
 | Project | Description |
 | --- | --- |
-| **[Cerune](https://github.com/Cerune-Lang/Cerune)** | The programming language, compiler, and execution infrastructure. |
-| **[Tint*](https://github.com/Cerune-Lang/Tint-St)** | A visual environment for inspecting intermediate representations, code generation, and execution paths. |
-| **[Cerune Language Support](https://github.com/Cerune-Lang/Cerune-vscode)** | A VS Code extension providing syntax highlighting and editor support for `.ceru` files. |
+| [Cerune](https://github.com/Cerune-Lang/Cerune) | Language, compiler, IR/VM execution |
+| [Tint*](https://github.com/Cerune-Lang/Tint-St) | App for viewing and comparing compiler output |
+| [Sashimi](https://github.com/Cerune-Lang/Sashimi) | x86-64 assembler and ELF/COFF object generation |
+| [LiseOS](https://github.com/Cerune-Lang/LiseOS) | x86-64/QEMU boot experiments with a Cerune kernel |
+| [Cerune Language Support](https://github.com/Cerune-Lang/Cerune-vscode) | VS Code syntax highlighting and snippets |
 
-## Libraries
-
-- **[Quantelia](https://github.com/Cerune-Lang/Quantelia)** — An experimental general-purpose numerical computing library for Cerune, focused on understanding numerical behavior and operation semantics.
-- **[Nerune](https://github.com/Cerune-Lang/Nerune)** — An experimental machine learning library for Cerune, exploring tensor operations, neural networks, and training workflows.
-
-## Experiments
-
-- **[Cisa](https://github.com/Cerune-Lang/Cisa)** — A small virtual CPU implemented in Cerune, used to explore language design through practical experimentation.
-- **[stelle](https://github.com/Cerune-Lang/stelle)** — A CLI RPG written in Cerune, exploring the language's expressiveness and practical capabilities through game development.
-
-## Our Philosophy
-
-**Observability, reproducibility, and understanding.**
-
-Rather than treating compilation and execution as black boxes, we aim to make their intermediate steps inspectable.
-
-Comparing intermediate representations and execution routes, and understanding the relationship between source code and generated output, are central to this exploration.
-
-This ecosystem is under active development. Language features, APIs, and implementations may evolve as experiments continue.
+See the [project list](../docs/projects.en.md) for Cisa, Nerune, Quantelia, and others. These projects are under active experimentation and development.
