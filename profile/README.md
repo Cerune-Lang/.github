@@ -2,11 +2,11 @@
 
 # Cerune
 
-日本語 | [English](README.en.md)
+日本語 | [English](https://github.com/Cerune-Lang/.github/blob/main/profile/README.en.md)
 
 Ceruneは、コンパイル中のIR・MIR・SSAや生成コードを確認できる実験的なプログラミング言語です。言語の開発ツールや、Ceruneで動くプログラムも公開しています。
 
-[言語のREADME](https://github.com/Cerune-Lang/Cerune) · [ドキュメントサイト](https://cerune.hokutaka.dev/) · [全プロジェクト](../docs/projects.ja.md)
+[言語のREADME](https://github.com/Cerune-Lang/Cerune) · [ドキュメントサイト](https://cerune.hokutaka.dev/) · [全プロジェクト](https://github.com/Cerune-Lang/.github/blob/main/docs/projects.ja.md)
 
 </div>
 
@@ -20,4 +20,4 @@ Ceruneは、コンパイル中のIR・MIR・SSAや生成コードを確認でき
 | [LiseOS](https://github.com/Cerune-Lang/LiseOS) | Cerune製カーネルのx86-64/QEMU起動実験 |
 | [Cerune Language Support](https://github.com/Cerune-Lang/Cerune-vscode) | VS Code用の構文色分けとスニペット |
 
-Cisa、Nerune、Quanteliaなどは[プロジェクト一覧](../docs/projects.ja.md)へ。いずれも開発・実験中です。
+Cisa、Nerune、Quanteliaなどは[プロジェクト一覧](https://github.com/Cerune-Lang/.github/blob/main/docs/projects.ja.md)へ。いずれも開発・実験中です。
