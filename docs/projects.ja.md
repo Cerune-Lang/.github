@@ -10,6 +10,7 @@
 | --- | --- |
 | [Cerune](https://github.com/Cerune-Lang/Cerune) | 静的型付け言語。IR/MIR/SSA、複数のコード生成、IR/VM実行 |
 | [Sashimi](https://github.com/Cerune-Lang/Sashimi) | x86-64命令、アセンブリ、ELF/COFFオブジェクトの生成 |
+| [Symnexa](https://github.com/Cerune-Lang/Symnexa) | Cerune・Sashimiのオブジェクトを結合する実験的なELF64リンカ |
 | [Tint*](https://github.com/Cerune-Lang/Tint-St) | Ceruneの中間表現・生成コード・実行結果を表示 |
 | [Cerune-vscode](https://github.com/Cerune-Lang/Cerune-vscode) | VS CodeのCerune構文色分け・スニペット |
 
@@ -28,6 +29,7 @@
 | [Nerune](https://github.com/Cerune-Lang/Nerune) | Cerune向け機械学習ライブラリの実験 |
 | [Cisa](https://github.com/Cerune-Lang/Cisa) | Ceruneで実装した小さな仮想CPU |
 | [stelle](https://github.com/Cerune-Lang/stelle) | Ceruneで制作するCLI RPG |
+| [Tarot](https://github.com/Cerune-Lang/Tarot) | Ceruneで制作するタロット占いアプリ（Web・Windows） |
 | [LiseOS](https://github.com/Cerune-Lang/LiseOS) | Cerune製カーネルをLimineで起動するx86-64/QEMU実験 |
 
 ## サイト
