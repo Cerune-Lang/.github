@@ -18,6 +18,15 @@ Where possible, include the version or commit, OS and architecture, reproduction
 
 Do not report security issues in public issues or pull requests. Follow the affected repository's security policy or the [shared policy](https://github.com/Cerune-Lang/.github/blob/main/SECURITY.md).
 
+## Development and verification principles
+
+You do not need to understand every internal component before contributing. Check the roadmap and milestones before starting, where available.
+
+- Distinguish implemented features, design proposals, and the scope of verification.
+- Add regression tests for bug fixes where possible. When comparing runs with external side effects, use equivalent inputs and environments and isolate output locations and other affected resources.
+- Verification experiments are welcome. Record the target commit, OS and architecture, tools and versions, inputs and seeds (where used), reproduction steps, baselines, results, and verification scope. Do not generalize finite examples into a guarantee for the entire project; record results that contradict a hypothesis or cannot be reproduced as well.
+- Logs and observation artifacts may contain source text or paths. Review them before sharing and share only what is necessary. Avoid committing unintended generated files, secrets, or non-public data.
+
 ## Pull requests
 
 - Keep changes focused and explain what changed and why.
