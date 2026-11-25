@@ -1,0 +1,31 @@
+name: "機能提案 / Feature request"
+description: "機能や開発体験の改善を提案する / Suggest a feature or improvement"
+title: "feat: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        大きな機能追加や設計変更は実装前に相談してください。
+        Please discuss substantial features or design changes before implementation.
+  - type: textarea
+    id: motivation
+    attributes:
+      label: "背景・課題 / Motivation"
+      description: "どのような問題を解決したいか / What problem should be solved?"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "提案 / Proposal"
+      description: "期待する動作、使い方など / Desired behavior or usage"
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "代替案・影響範囲 / Alternatives and impact"
+  - type: textarea
+    id: context
+    attributes:
+      label: "参考情報 / Additional context"
