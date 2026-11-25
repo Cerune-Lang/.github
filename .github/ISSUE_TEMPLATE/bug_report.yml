@@ -1,0 +1,40 @@
+name: "不具合報告 / Bug report"
+description: "プロジェクトの不具合を報告する / Report a project bug"
+title: "bug: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        セキュリティ上の問題は公開せず、対象リポジトリのセキュリティポリシー（なければ[共通方針](https://github.com/Cerune-Lang/.github/blob/main/SECURITY.md)）に従ってください。
+        For security issues, follow the repository's security policy or the [shared policy](https://github.com/Cerune-Lang/.github/blob/main/SECURITY.md); do not report them publicly.
+        個人情報・秘密情報は含めないでください。 / Do not include personal information or secrets.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "再現手順 / Reproduction steps"
+      description: "最小限の入力、操作、実行コマンド / Minimal input, steps, or commands"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "期待した結果 / Expected behavior"
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "実際の結果 / Actual behavior"
+      description: "出力やエラー（秘密情報を除く） / Output or errors (redact secrets)"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: "環境 / Environment"
+      description: "バージョンまたはコミット、OS、ツール等 / Version or commit, OS, tools, etc."
+  - type: textarea
+    id: context
+    attributes:
+      label: "補足 / Additional context"
+      description: "関係する実行経路、関連Issueなど / Affected routes, related issues, etc."
